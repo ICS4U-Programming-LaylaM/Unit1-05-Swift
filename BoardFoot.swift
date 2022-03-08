@@ -11,7 +11,7 @@
 // foot (144 inches^3).
 
 // Creating function to calculate the length of the board
-func calculateBoardFoot(width: Double, height: Double) -> Double {
+func CalculateBoardFoot(width: Double, height: Double) -> Double {
     let length = 144 / (width * height)
     return length
 }
@@ -40,7 +40,7 @@ outerloop: while true {
             if userHeightDouble <= 0 {
                 print("Please enter a valid number.\n")
             } else {
-                let userLength = calculateBoardFoot(width: userWidthDouble, height: userHeightDouble)
+                let userLength = CalculateBoardFoot(width: userWidthDouble, height: userHeightDouble)
                 print("\nThe length should be: \(userLength) inches.")
                 break outerloop
             }
