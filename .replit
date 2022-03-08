@@ -1,0 +1,2 @@
+language = "swift"
+run = ["/home/runner/Unit1-05-Swift", "run"]
